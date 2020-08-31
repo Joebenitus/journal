@@ -4,6 +4,25 @@
   <title>Journal</title>
 </head>
 <body>
-  <p id="result">This is where the test should be.</p>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Journal</h2>
+    </div>
+    
+    <form id='user-form'>
+      <label for="user-entry">Enter a your title</label>
+      <input type="text" id="user-title">
+      <label for="user-entry">Enter a journal post.</label>
+      <input type="text" id="user-entry">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <p id="teaser"></p>
+    <p id="vowels"></p>
+    <p id="consonants"></p>
+    <p id="word-count"></p>
+
+    <h3 id="title"></h3>
+    <p id="body"></p>
+  </div>
 </body>
 </html>

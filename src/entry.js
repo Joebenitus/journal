@@ -21,7 +21,7 @@ Entry.prototype.getConsonants = function(){
 }
 //   body.replace(/[^aeiou]/gi, "") 
 //  asdfasdfgg..123
-//  aa
+//  aa 
 
 Entry.prototype.getTeaser = function(){
   let bodyArray = this.body.split(" ");
